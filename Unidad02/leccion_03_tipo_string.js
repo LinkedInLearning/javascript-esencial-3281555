@@ -9,4 +9,4 @@ let stringConComillasSimples = 'El dijo, "Buenos días!"';
 console.log(stringConComillasSimples);
 
 let stringConComillasDobles = "El dijo, 'Buenos días!'";
-console.log(stringConComillas); // Salida: El dijo, 'Buenos días!'
+console.log(stringConComillasDobles); // Salida: El dijo, 'Buenos días!'
