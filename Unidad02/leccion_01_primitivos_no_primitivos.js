@@ -1,7 +1,8 @@
 // Tipos primitivos:
 
 // números:
-const valorNumeral = 1000;
+let valorNumeral = 1000;
+valorNumeral = 1001;
 
 //strings:
 const valorString = 'Hola JavaScript';
@@ -21,7 +22,7 @@ const valorNulo = null;
 // Tipos no primitivos:
 
 // Objetos:
-const objeto = { nombre: 'Natalia' };
+const objeto = { nombre: 'Natalia', apellido: 'Corea' };
 
 //Arreglos:
 const arr = [1, 2, 3, 4, 5];
