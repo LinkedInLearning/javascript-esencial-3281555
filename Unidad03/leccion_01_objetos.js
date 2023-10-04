@@ -9,7 +9,7 @@ const persona = {
 
 console.log(persona.nombre); // Salida: Carlos
 
-const nombreCompleto = persona.nombre + persona.apellido;
+const nombreCompleto = persona.nombre + ' ' + persona.apellido;
 persona.edad = 40;
 
 // Objetos anidados:
