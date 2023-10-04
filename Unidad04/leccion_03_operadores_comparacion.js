@@ -1,4 +1,4 @@
-// Operadores de compraración:
+// Operadores de comparación:
 
 let x = 5;
 let y = '5';
@@ -27,5 +27,5 @@ console.log(a <= b); // Salida: false
 // Operador "mayor que":
 console.log(a > b); // Salida: false
 
-// Operador "mayor or igual que":
+// Operador "mayor o igual que":
 console.log(a >= b); // Salida: true

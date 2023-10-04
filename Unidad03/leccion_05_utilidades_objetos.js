@@ -2,12 +2,12 @@
 const persona = {
   nombre: "Juan",
   edad: 30,
-  cuidad: "Heredia"
+  ciudad: "Heredia"
 };
 
 // Object.keys():
 let llaves = Object.keys(persona);
-console.log(llaves); // Salida: [ 'name', 'edad', 'cuidad' ]
+console.log(llaves); // Salida: [ 'name', 'edad', 'ciudad' ]
 
 // Object.values():
 const valores = Object.values(persona);
@@ -16,7 +16,7 @@ console.log(valores); // Salida: [ 'Juan', 30, 'Heredia' ]
 // Object.entries():
 const entradas = Object.entries(persona);
 console.log(entradas);
-// Salida: [ [ 'nombre', 'Juan' ], [ 'edad', 30 ], [ 'cuidad', 'Heredia' ] ]
+// Salida: [ [ 'nombre', 'Juan' ], [ 'edad', 30 ], [ 'ciudad', 'Heredia' ] ]
 
 // Object.assign():
 const destino = { a: 1, b: 2 };
