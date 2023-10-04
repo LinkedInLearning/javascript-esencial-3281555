@@ -21,7 +21,7 @@ let b = 5;
 // Operador "menor que":
 console.log(a < b); // Salida: false
 
-// Operador "menor o igual a que":
+// Operador "menor o igual que":
 console.log(a <= b); // Salida: false
 
 // Operador "mayor que":
