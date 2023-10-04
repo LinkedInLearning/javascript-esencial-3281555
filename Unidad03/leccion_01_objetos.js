@@ -15,7 +15,7 @@ persona.edad = 40;
 // Objetos anidados:
 const persona2 = {
   nombre: "Carlos",
-  apellido: "Solis",
+  apellido: "Monge",
   edad: 30,
   esAutorizado: true,
   direccion: {
