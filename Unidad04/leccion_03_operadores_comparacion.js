@@ -17,15 +17,16 @@ console.log(x !== y); // Salida: true
 
 let a = 10;
 let b = 5;
+let c = 5;
 
 // Operador "menor que":
 console.log(a < b); // Salida: false
 
 // Operador "menor o igual que":
-console.log(a <= b); // Salida: false
+console.log(c <= b); // Salida: true
 
 // Operador "mayor que":
-console.log(a > b); // Salida: false
+console.log(a > b); // Salida: true
 
 // Operador "mayor o igual que":
 console.log(a >= b); // Salida: true
