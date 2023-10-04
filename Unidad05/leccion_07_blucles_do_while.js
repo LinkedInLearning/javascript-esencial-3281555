@@ -6,7 +6,7 @@ do {
   console.log(`El número aleatorio en do..while es: ${numeroAleatorio}`);
 } while (numeroAleatorio !== 5);
 
-// while vs do..while
+// Ejemplo while vs do..while
 let cuenta = 0;
 
 while (cuenta < 15) {
