@@ -3,7 +3,7 @@ let edad = 30;
 
 let saludo = `Hola, mi nombre es ${nombre} y tengo ${edad} años.`;
 console.log(saludo);
-// Salida: Hola, mi nombre es John y tengo 30 years años.
+// Salida: Hola, mi nombre es Mario y tengo 30 años.
 
 // Multi linea:
 
