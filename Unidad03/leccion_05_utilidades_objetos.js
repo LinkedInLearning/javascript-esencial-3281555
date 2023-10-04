@@ -11,11 +11,11 @@ console.log(llaves); // Salida: [ 'name', 'edad', 'cuidad' ]
 
 // Object.values():
 const valores = Object.values(persona);
-console.log(valores); // Output: [ 'Juan', 30, 'Heredia' ]
+console.log(valores); // Salida: [ 'Juan', 30, 'Heredia' ]
 
 // Object.entries():
 const entradas = Object.entries(persona);
-console.log(entries);
+console.log(entradas);
 // Salida: [ [ 'nombre', 'Juan' ], [ 'edad', 30 ], [ 'cuidad', 'Heredia' ] ]
 
 // Object.assign():
@@ -24,4 +24,4 @@ const origen = { b: 3, c: 4 };
 
 const objetoFusionado = Object.assign({}, destino, origen);
 
-console.log(objetoFusionado); // Output: { a: 1, b: 3, c: 4 }
+console.log(objetoFusionado); // Salida: { a: 1, b: 3, c: 4 }
