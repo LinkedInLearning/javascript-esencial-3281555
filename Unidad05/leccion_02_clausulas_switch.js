@@ -49,22 +49,3 @@ switch (fruta) {
 }
 
 console.log(`El color de la ${fruta} es ${color}.`);
-
-// Ejemplo 3:
-let categoria = "vegetal";
-let mensaje;
-
-switch (categoria) {
-  case "fruta":
-    mensaje = "Es un tipo de fruta.";
-    break;
-  case "vegetal":
-    mensaje = "Es un tipo de vegetal.";
-    break;
-  default:
-    mensaje = "Desconocido";
-}
-
-console.log(mensaje);
-
-
