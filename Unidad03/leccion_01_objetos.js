@@ -2,7 +2,7 @@
 
 const persona = {
   nombre: "Carlos",
-  apellido: "Solis",
+  apellido: "Monge",
   edad: 30,
   esAutorizado: true
 };
