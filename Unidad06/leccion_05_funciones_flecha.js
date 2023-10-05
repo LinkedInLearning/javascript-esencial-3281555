@@ -1,4 +1,4 @@
-// Función flecha con valor de retorno implicito:
+// Función flecha con valor de retorno implícito:
 let sumar = (x, y) => x + y;
 
 let resultado = sumar(5, 3);
@@ -9,7 +9,7 @@ let decirHola = () => {
   console.log("Hola!");
 };
 
-decirHola(); // Salida: Hello!
+decirHola(); // Salida: Hola!
 
 // Función flecha con un parámetro:
 let raizCuadrada = x => x * x;
@@ -21,4 +21,4 @@ console.log(resultado2); // Salida: 81
 let crearPersona = (nombre, edad) => ({ nombre: nombre, edad: edad });
 
 let persona = crearPersona("Eleanor", 16);
-console.log(persona); // Output: { nombre: 'Eleanor', edad: 16 }
+console.log(persona); // Salida: { nombre: 'Eleanor', edad: 16 }
