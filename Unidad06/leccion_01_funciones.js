@@ -7,7 +7,7 @@ function sumarNumeros(num1, num2) {
 
 console.log(sumarNumeros(5, 3)); // Salida: 8
 
-// Llamado de función dentro de un bucle for:
+// Llamado de una función dentro de un bucle for:
 
 function raizCuadrada(numero) {
   return numero * numero;
