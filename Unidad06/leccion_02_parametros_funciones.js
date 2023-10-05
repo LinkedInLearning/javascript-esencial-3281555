@@ -1,9 +1,9 @@
 // Enviar parámetros por valor:
 // Los datos primitivos siempre se pasan por valor.
 
-function incrementar(numbero) {
-  numbero++;
-  return numbero;
+function incrementar(numero) {
+  numero++;
+  return numero;
 }
 
 let num = 5;

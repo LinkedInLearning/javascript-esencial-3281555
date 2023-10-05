@@ -5,14 +5,14 @@ const y = false;
 
 // Expresiones lógicas:
 // AND: doble ampersand
-let resultado = x && y; // resultado is false
+let resultado = x && y && true; // resultado es false
 
 // OR: doble barra vertical
-let resultado2 = x || y; // resultado2 is true
+let resultado2 = x || y || false; // resultado2 es true
 
 // NOT: signo de exclamación
-let resultado3 = !x; // resultado3 is false
-let resultado4 = !y; // resultado3 is true
+let resultado3 = !x; // resultado3 es false
+let resultado4 = !y; // resultado3 es true
 
 // Podemos componer expresiones más largas y complejas:
 

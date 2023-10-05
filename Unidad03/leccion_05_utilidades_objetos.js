@@ -7,7 +7,7 @@ const persona = {
 
 // Object.keys():
 let llaves = Object.keys(persona);
-console.log(llaves); // Salida: [ 'name', 'edad', 'ciudad' ]
+console.log(llaves); // Salida: [ 'nombre', 'edad', 'ciudad' ]
 
 // Object.values():
 const valores = Object.values(persona);

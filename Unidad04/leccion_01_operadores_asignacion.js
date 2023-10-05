@@ -1,4 +1,4 @@
-// Opeadores de asginación
+// Opeadores de asignación
 
 let x = 5; // Asigna el valor de 5 a la variable x
 
@@ -17,7 +17,7 @@ let w = 20;
 w *= 2; // Equivalente a: w = w * 2;
 console.log(w); // w ahora es 40
 
-// asignación de divición
+// asignación de división
 let a = 50;
 a /= 5; // Equivalente a: a = a / 5;
 console.log(a); // a ahora es 10
