@@ -2,7 +2,7 @@
 let persona = {
   nombre: "Elena",
   apellido: "Salas",
-  age: 30
+  edad: 30
 };
 
 for (let llave in persona) {
