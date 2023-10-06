@@ -1,4 +1,4 @@
-
+// spread = desparramar, dispersar
 // Copiar un arreglo o un objeto:
 
 let arregloOriginal = [1, 2, 3];
