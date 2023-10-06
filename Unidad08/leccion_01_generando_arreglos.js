@@ -1,4 +1,11 @@
-let fruits = ['apple', 'banana', 'cherry'];
-let numbers = new Array(1, 2, 3, 4, 5);
-let range = Array.from({ length: 5 }, (_, index) => index + 1);
-let colors = ['red', 'green', ...['blue', 'yellow']];
+let frutas = ['manzana', 'banana', 'pera'];
+console.log(frutas);
+
+let numeros = new Array(1, 2, 3, 4, 5);
+console.log(numeros);
+
+let resultado = Array.from('mira el cielo', (caracter) => caracter.toUpperCase());
+console.log(resultado);
+
+let colores = ['rojo', 'verde', ...['azul', 'amarillo']];
+console.log(colores);
