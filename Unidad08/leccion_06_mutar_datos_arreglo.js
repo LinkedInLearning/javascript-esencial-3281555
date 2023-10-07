@@ -7,10 +7,9 @@ console.log(flores); // Salida: ['girasol', 'geranio', 'amapola']
 // Método sort: ordena los elementos en el arreglo
 /**
  * La función callback debe retornar un valor dependiendo del caso:
- * - Un valor negativo si el primer argumento es menor
- * que el categoria2 argumento
+ * - Un valor negativo si el primer parámetro es menor que el segundo
  * - Cero si son iguales
- * - Un valor positivo si es mayor
+ * - Un valor positivo si el primer parámetro es mayor que el segundo
  * Si la función se omite, los elementos se ordenan ascendentemente
  * según el orden de caracteres ASCII.
  */
