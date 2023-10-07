@@ -8,13 +8,14 @@ const personas = [
 
 let frutas = ['manzana', 'banana', 'pera', 'melón', 'banana'];
 
-// Métodos indexOf y lastIndexOf: retorna el primer índice que coincida con la búsqueda
+// Métodos indexOf y lastIndexOf: retorna el primer o el último índice 
+// que coincida con la búsqueda
 // retorna -1 si no se encuentra el elemento
 let indiceBanana = frutas.indexOf('banana');
 let ultimoindiceBanana = frutas.lastIndexOf('banana');
 
 console.log(indiceBanana); // Salida: 1
-console.log(ultimoindiceBanana); // Salida: 1
+console.log(ultimoindiceBanana); // Salida: 4
 
 console.log(personas.indexOf({ nombre: 'Eli' })); // Salida: -1
 console.log(personas.lastIndexOf({ nombre: 'Eli' })); // Salida: -1
