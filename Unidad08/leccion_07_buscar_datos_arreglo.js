@@ -22,7 +22,7 @@ console.log(personas.lastIndexOf({ nombre: 'eli' })); // Salida: -1
 console.log(personas.indexOf(personas[3])); // Salida: 3
 console.log(personas.lastIndexOf(personas[1])); // Salida: 1
 
-// Metodo includes: determina si el arreglo contiene el elemento buscado
+// Método includes: determina si el arreglo contiene el elemento buscado
 // Devuelve un valor booleano
 console.log(frutas.includes('melón')); // Salida: true
 console.log(frutas.includes('sandía')); // Salida: false
@@ -30,7 +30,7 @@ console.log(frutas.includes('sandía')); // Salida: false
 console.log(personas.includes({ nombre: 'eli' })); // Salida: false
 console.log(personas.includes(personas[3])); // Salida: true
 
-// Método find: retorna el elemento que coincida con la búsqueda
+// Método find: retorna primer elemento que coincida con la búsqueda
 console.log(frutas.find(fruta => fruta === 'melón')); // Salida: 'melón'
 console.log(frutas.find(fruta => fruta === 'sandía')); // Salida: undefined
 
