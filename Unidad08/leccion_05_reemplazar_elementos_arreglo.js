@@ -12,6 +12,6 @@ console.log(numeros); // Salida: [1, 2, 6, 4, 5]
 
 // Método fill:
 const letras = ['A', 'B', 'C', 'D', 'E', 'H', 'I'];
-letras.fill('X', 2, 3);
+letras.fill('X', 2, 4);
 
-console.log(letras); // Salida: ['A', 'B', 'X', 'D', 'E', 'H', 'I']
+console.log(letras); // Salida: ['A', 'B', 'X', 'X', 'E', 'H', 'I']
