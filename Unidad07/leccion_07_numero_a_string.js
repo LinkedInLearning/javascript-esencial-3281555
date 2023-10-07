@@ -1,4 +1,4 @@
-// Convirtiendo strins a números:
+// Convirtiendo strings a números:
 const strNumero = "123";
 const numero = parseInt(strNumero);
 const numero2 = +strNumero;
