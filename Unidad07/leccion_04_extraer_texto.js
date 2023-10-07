@@ -13,7 +13,7 @@ console.log(primerasLetras);
 const ignoraPrimerasLetras = texto.slice(10);
 console.log(ignoraPrimerasLetras);
 
-// Toma del caracter 5 al caracter 10:
+// Toma del carácter 5 al carácter 10:
 const ignoraPrimerasLetras2 = texto.slice(5, 10);
 console.log(ignoraPrimerasLetras2);
 
