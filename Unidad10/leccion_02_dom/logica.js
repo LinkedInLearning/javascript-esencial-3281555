@@ -1,5 +1,6 @@
 /**
- * childNodes retorna nodos hijos que incluye nodos de elementos, nodos de texto y comentarios.
+ * childNodes retorna nodos hijos que incluye nodos de elementos, 
+ * nodos de texto y comentarios.
  * children retorna elementos hijos excepto texto y comentarios.
  */
 
@@ -15,7 +16,8 @@ const hijoBody = document.body.children;
 console.log(arbolNodosBody);
 console.log(hijoBody);
 
-// Cada elemento HTML tiene una lista de propiedades que podemos cambiar con JavaScript:
+// Cada elemento HTML tiene una lista de propiedades que 
+// podemos cambiar con JavaScript:
 const elementosBotones = document.getElementsByClassName('boton-redondo');
 console.log(elementosBotones);
 
