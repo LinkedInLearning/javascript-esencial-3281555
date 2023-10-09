@@ -27,7 +27,8 @@ console.log(robot3);
 let masCercano = robot3.closest('.galeria');
 console.log(masCercano);
 
-const botonCercano = robot3.closest('.boton-redondo'); // Retornará null porque los botones no estan en la misma rama
+// Retornará null porque los botones no estan en la misma rama
+const botonCercano = robot3.closest('.boton-redondo');
 console.log(botonCercano);
 
 // Método getElementsByName:

@@ -5,7 +5,11 @@ elementoBoton.innerText = 'Botón agregado usando JavaScript!'
 document.body.append(elementoBoton);
 
 // Método: createDocumentFragment
-const imagenesUrls = ['./imagenes/robot1.png', './imagenes/robot2.png', './imagenes//robot3.png'];
+const imagenesUrls = [
+  './imagenes/robot1.png',
+  './imagenes/robot2.png',
+  './imagenes/robot3.png'
+];
 
 const galeria = document.getElementsByClassName('galeria')[0];
 const fragmento = document.createDocumentFragment();

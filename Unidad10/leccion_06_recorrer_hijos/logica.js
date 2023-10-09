@@ -1,5 +1,3 @@
-const imagenes = document.getElementsByTagName('img');
-
 function obtenerColorAleatorio() {
   let letras = '0123456789ABCDEF';
   let color = '#';
@@ -14,6 +12,9 @@ function cambiarImagenes() {
     imagen.style.border = `${obtenerColorAleatorio()} solid 3px`;
   }
 }
+
+const imagenes = document.getElementsByTagName('img');
+cambiarImagenes();
 
 // Usando recursión:
 
