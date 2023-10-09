@@ -7,10 +7,13 @@ function mostrarTiempo() {
   console.log(`${horas}:${minutos}:${segundos}`);
 }
 
-// setInterval: ejecuta una función cada vez que el tiempo definido en el segundo parámetro haya pasado.
-const idSetInterval = setInterval(mostrarTiempo, 1000); // Se actualiza cada segundo
+// setInterval: ejecuta una función cada vez que el tiempo definido 
+// en el segundo parámetro haya pasado.
+const idSetInterval = setInterval(mostrarTiempo, 1000); 
+// Se actualiza cada segundo
 
-// setTimeout: ejecuta una función luego que el tiempo definido en el segundo parámetro haya pasado.
+// setTimeout: ejecuta una función luego que el tiempo definido
+// en el segundo parámetro haya pasado.
 const idSetTimeout = setTimeout(() => {
   // clearInterval: elimina el interval con el id que se pase como parámetro.
  clearInterval(idSetInterval);
