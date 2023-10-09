@@ -1,0 +1,23 @@
+{
+    "imagenes": [
+      {
+        "url": "./imagenes/robot1.png",
+        "alt": "Robot 1",
+        "titulo": "Cute Robot 1",
+        "descripcion": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "url": "./imagenes/robot2.png",
+        "alt": "Robot 2",
+        "titulo": "Cute Robot 2",
+        "descripcion": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "url": "./imagenes//robot3.png",
+        "alt": "Robot 3",
+        "titulo": "Cute Robot 3",
+        "descripcion": "Lorem ipsum dolor sit amet"
+      }
+    ]
+  }
+  
