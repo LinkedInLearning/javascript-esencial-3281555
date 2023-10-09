@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de registro</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>Cute Robots</h1>
+  <div class="galeria">
+    <img onclick="clickEnRobot(1)" src="./imagenes/robot1.png" alt="Robot 1">
+    <img onclick="clickEnRobot(2)" src="./imagenes/robot2.png" alt="Robot 2">
+    <img onclick="clickEnRobot(3)" src="./imagenes//robot3.png" alt="Robot 3">
+  </div>
+  <div class="contenedor">
+    <h1>Formulario de registro</h1>
+    <form onsubmit="return validarFormulario()">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="apellido">Apellidos:</label>
+      <input type="text" id="apellido" name="apellido" required><br><br>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <input type="submit" value="Registrarse">
+    </form>
+  </div>
+
+  <script src="logica.js"></script>
+</body>
+</html>

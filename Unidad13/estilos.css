@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+  .galeria {
+    max-width: 800px;
+    margin: auto;
+    margin: 0;
+  }
+
+  #contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  #contenedor img {
+    max-width: 30%;
+    margin: 10px;
+  }
+
+  .contenedor-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: darkgrey solid 1px;
+    margin-bottom: 5px;
+  }
+  
