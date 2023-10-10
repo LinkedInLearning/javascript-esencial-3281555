@@ -26,6 +26,8 @@ function validarFormulario() {
   }
 
 // Ejemplos de diferentes tipos de eventos:
+// La lista completa puedes encontrarla en este enlace:
+// https://developer.mozilla.org/en-US/docs/Web/API/Event
 
 document.addEventListener('scroll', evento => {
     console.log('Scroll en la página', evento);

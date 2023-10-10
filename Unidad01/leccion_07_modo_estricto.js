@@ -8,7 +8,7 @@
  * un entorno de codificación más sólido y seguro.
  */
 
-'use strict';
+//'use strict';
 
 // Previene asignar valores a variables no declaradas anteriormente:
 variableSinDeclaracion = 17;
