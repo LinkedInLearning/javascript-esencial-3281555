@@ -121,5 +121,5 @@ const animales = [
     }
   ];
 
-// Determinar cuantos animales hay por tipo:
+// Determinar cuántos animales hay por tipo:
 // Salida esperada { 'Mamífero': 12, 'Ave': 3, 'Reptil': 4, 'Pez': 1 }

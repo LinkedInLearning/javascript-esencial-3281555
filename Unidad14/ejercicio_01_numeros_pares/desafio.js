@@ -1,1 +1,1 @@
-// Contar cuantos números pares hay entre uno y 100:
+// Contar cuántos números pares hay entre uno y 100:
