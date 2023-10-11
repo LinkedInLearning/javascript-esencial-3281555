@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Círculo en el Centro</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+  }
+
+  #circulo {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+    <h1>¿Está el puntero dentro del círculo?</h1>
+    <h1 id="respuesta">No</h1>
+    <div id="circulo"></div>
+    <script src="solucion.js"></script>
+    <!-- <script src="desafio.js"></script> -->
+</body>
+</html>

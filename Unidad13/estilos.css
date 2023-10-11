@@ -31,4 +31,38 @@ body {
     border: darkgrey solid 1px;
     margin-bottom: 5px;
   }
+
+  .boton-redondo {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    font-family: Arial, sans-serif;
+  }
+
+  .boton-redondo:hover {
+    background-color: #0056b3;
+  }
+
+  .mensaje-error {
+    background-color: #ffcccc;
+    border: 1px solid #ff0000;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 300px;
+    text-align: center;
+    display: none;
+  }
+  
+  .mensaje-error span {
+    font-weight: bold;
+  }
   
