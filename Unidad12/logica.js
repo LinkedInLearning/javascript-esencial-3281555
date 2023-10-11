@@ -56,5 +56,7 @@ const escuchadorClickPagina = evento => {
 document.addEventListener('click', escuchadorClickPagina);
 
 // Ejemplo dispatchEvent
-//document.dispatchEvent(new Event('click'));
+for(let i = 0; i < 3; i++){
+  document.dispatchEvent(new Event('click'));
+}
   
